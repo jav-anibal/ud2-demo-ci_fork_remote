@@ -2,19 +2,36 @@
   "name": "ud2-demo-ci",
   "version": "1.0.0",
   "description": "Proyecto demo para la UD2 de DevOps (CI con Node.js)",
-  "main": "src/calculadora.js",
-  "scripts": {
-    "test": "jest"
-  },
   "keywords": [
     "ci",
     "devops",
     "jest",
-    "node"
+    "node",
+    "express"
   ],
-  "author": "Tu Nombre/Nombre del Centro",
+  "homepage": "https://github.com/jav-anibal/ud2-demo-ci_fork_remote#readme",
+  "bugs": {
+    "url": "https://github.com/jav-anibal/ud2-demo-ci_fork_remote/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jav-anibal/ud2-demo-ci_fork_remote.git"
+  },
   "license": "ISC",
+  "author": "Tu Nombre/Nombre del Centro",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^25.0.0"
   }
 }
